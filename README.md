@@ -1,25 +1,25 @@
 # Team Bathybot - Official WRO 2026 Future Engineers Repository
 
-[cite_start]Welcome to the official GitHub repository of **Team Bathybot**, proudly competing in the **World Robot Olympiad (WRO) 2026 - Future Engineers Category**[cite: 62]. This repository contains the complete documentation, mechanical design rationale, source code, and engineering progress of our fully autonomous robotic vehicle. 
+Welcome to the official GitHub repository of **Team Bathybot**, proudly competing in the **World Robot Olympiad (WRO) 2026 - Future Engineers Category**. This repository contains the complete documentation, mechanical design rationale, source code, and engineering progress of our fully autonomous robotic vehicle. 
 
-[cite_start]Real engineering is about creating a solution and sharing that idea with others to push concepts forward[cite: 70]. [cite_start]In accordance with the international competition guidelines, all information and documentation within this GitHub repository is provided in English[cite: 74]. [cite_start]This repository is set to public visibility and will remain accessible for at least 12 months post-competition to inspire future teams[cite: 104].
+Real engineering is about creating a solution and sharing that idea with others to push concepts forward. In accordance with the international competition guidelines, all information and documentation within this GitHub repository is provided in English. This repository is set to public visibility and will remain accessible for at least 12 months post-competition to inspire future teams.
 
 ---
 
 ## 1. Project Overview & Rules Compliance
 
 The Future Engineers category challenges students to simulate real-world autonomous driving conditions. As part of our engineering deliverables, this repository has been structured to fulfill all official requirements:
-* [cite_start]**Documentation Checklist:** We have included comprehensive descriptions, information, and justifications regarding our vehicle's mobility, power system, sensing, and obstacle management protocols[cite: 76].
-* [cite_start]**Visual Evidence:** The repository includes photographs of the vehicle from all sides (top, bottom, left, right, front, back), alongside an official team photograph[cite: 77]. 
-* [cite_start]**Autonomous Demonstration:** Included are public YouTube links showcasing the vehicle operating autonomously[cite: 78]. [cite_start]Each video demonstrates autonomous driving for a minimum duration of 30 seconds [cite: 79][cite_start], with one dedicated video provided per challenge[cite: 80].
-* [cite_start]**Source Code & Manufacturing:** The root directory contains all source code programmed for the competition[cite: 81], alongside the necessary `.llsp3` files.
-* [cite_start]**Commit History Rules:** Our repository maintains a rigorous version control history with at least three major commits tracking our engineering progress[cite: 83]. [cite_start]The first commit was made at least two months prior to the event [cite: 84][cite_start], the second at least one month prior [cite: 85][cite_start], and the final main commit at least two weeks before the competition[cite: 90].
+* **Documentation Checklist:** We have included comprehensive descriptions, information, and justifications regarding our vehicle's mobility, power system, sensing, and obstacle management protocols.
+* **Visual Evidence:** The repository includes photographs of the vehicle from all sides (top, bottom, left, right, front, back), alongside an official team photograph. 
+* **Autonomous Demonstration:** Included are public YouTube links showcasing the vehicle operating autonomously. Each video demonstrates autonomous driving for a minimum duration of 30 seconds, with one dedicated video provided per challenge.
+* **Source Code & Manufacturing:** The root directory contains all source code programmed for the competition, alongside the necessary `.llsp3` files.
+* **Commit History Rules:** Our repository maintains a rigorous version control history with at least three major commits tracking our engineering progress. The first commit was made at least two months prior to the event, the second at least one month prior, and the final main commit at least two weeks before the competition.
 
 ---
 
 ## 2. Electromechanical Architecture & Port Mapping
 
-Our autonomous vehicle is built upon the highly versatile LEGO SPIKE Prime hardware ecosystem. To ensure a robust connection between the mechanical components and the software, we established a strict, modular port mapping architecture. [cite_start]This clarifies exactly how the software modules relate to the electromechanical components[cite: 96].
+Our autonomous vehicle is built upon the highly versatile LEGO SPIKE Prime hardware ecosystem. To ensure a robust connection between the mechanical components and the software, we established a strict, modular port mapping architecture. This clarifies exactly how the software modules relate to the electromechanical components.
 
 ### 2.1. Main Controller
 * **Hub Central SPIKE Prime:** The brain of our vehicle is the LEGO SPIKE Prime Hub. It manages power distribution, sensor data acquisition, and motor control simultaneously. 
@@ -60,7 +60,7 @@ This module handles the dynamic traffic blocks. It overrides the Micro-Evasion m
 
 ## 4. Setup, Compilation, and Execution Process
 
-[cite_start]To ensure transparency and allow the judges or other teams to replicate our results, the process for compiling, loading, and executing the code is detailed below[cite: 96]. [cite_start]Note that judges may not have the specific programming software installed, so this guide serves as a comprehensive operational manual[cite: 109].
+To ensure transparency and allow the judges or other teams to replicate our results, the process for compiling, loading, and executing the code is detailed below. Note that judges may not have the specific programming software installed, so this guide serves as a comprehensive operational manual.
 
 ### 4.1. Prerequisites
 1. Ensure the physical vehicle is assembled exactly according to the provided photographs and that all cables are routed to their assigned ports (A-F) as detailed in Section 2.
