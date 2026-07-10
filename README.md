@@ -1,4 +1,4 @@
-# 🏎️ Team Bathybot - Official WRO 2026 Future Engineers Repository
+# Team Bathybot - Official WRO 2026 Future Engineers Repository
 
 <div align="center">
   <strong>World Robot Olympiad 2026 | Future Engineers Category | Autonomous Driving Challenge</strong>
@@ -159,34 +159,14 @@ Looking ahead to the International Finals, we plan to implement:
 
 ---
 
-## 19. Repository Contents
-```text
-Bathybot-WRO-2026/
-├── README.md
-├── src/
-│   ├── jovenes_ing_codigo_v3.llsp3
-│   └── legacy_v2_code.llsp3
-├── docs/
-│   └── Diario.pdf
-├── media/
-│   ├── photos/
-│   │   ├── IMG_0717.jpg (Front steering view)
-│   │   ├── IMG_0723.jpg (Chassis overview)
-│   │   └── IMG_0724.jpg (Rear drive view)
-│   └── videos/
-└── models/
-```
-
----
-
-## 20. Installation Guide
+## 19. Installation Guide
 1.  Download and install the latest version of the **LEGO Education SPIKE App**.
 2.  Clone this repository: `git clone https://github.com/YourUsername/Bathybot-WRO-2026.git`
 3.  Open the SPIKE app, select "Open Project", and navigate to the `/src` folder to load the `.llsp3` file.
 
 ---
 
-## 21. Running the Robot
+## 20. Running the Robot
 1.  Ensure the physical build matches the Port Mapping in Section 9 exactly.
 2.  Power on the SPIKE Hub.
 3.  Connect via Bluetooth or USB and download the program to Slot 0.
@@ -194,12 +174,12 @@ Bathybot-WRO-2026/
 
 ---
 
-## 22. Engineering Philosophy
+## 21. Engineering Philosophy
 Team Bathybot embraces the ethos of "Fail Fast, Learn Faster." The complete teardown of our robot after the July 9 competition exemplifies our commitment to not settling for "good enough." We prioritize mechanical solutions to physical problems, rather than trying to patch bad hardware with complex software.
 
 ---
 
-## 23. Credits
+## 22. Credits
 * **World Robot Olympiad Association:** For providing an incredible platform for future engineers.
 * **Team Bathybot Members:** For their relentless dedication to mechanics and code.
 * *World Robot Olympiad and the WRO logo are trademarks of the World Robot Olympiad Association Ltd.*
